@@ -1,0 +1,12 @@
+{% extends "section.html" %}
+
+{% block content %}
+<ul>
+    {% for page in section.pages %}
+    <li>
+        <i style="margin-right: 50px;">{{ page.date }}</i>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lean's cozy cabin</title>
+        <style>
+            body {
+                max-width: 800px;
+                margin: auto;
+                padding: 10px;
+                background: white;
+                color: black;
+                font-size: 18px;
+                line-height: 1.4;
+            }
+
+            img {
+            	max-width: 800px;
+            }
+        </style>
+    </head>
+
+    <body>
+        {% block title %}
+        <h1>Lean's cabin</h1>
+        {% endblock title %}
+        <hr />
+        <a href="/">home</a>
+        |
+        <a href="/about">about me</a>
+        |
+        <a href="/blog">blog</a>
+        |
+        <a href="https://leanghok.atabook.org" target="_blank">guestbook :3</a>
+        |
+        <a href="https://codeberg.org/leanghok" target="_blank">git</a>
+        <hr />
+
+        {% block content %} {% endblock content %}
+    </body>
+</html>
