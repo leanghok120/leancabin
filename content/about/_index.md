@@ -20,8 +20,8 @@ there's a soft rainy morning, I always feel a bit better.
 Some of my hobbies are:
 
 -   programming
--   reading man pages, see [my list of man pages](./mans.html)
--   watching anime/movies/series, see [log](./log.html)
+-   reading man pages, see [my list of man pages](/mans)
+-   watching anime/movies/series, see [log](/log)
 -   badminton
 
 ## Favorite
@@ -31,7 +31,8 @@ Some of my hobbies are:
 -   shin ramyun black
 -   indomie
 -   buldak (the cheese one)
--   fried rice
+-   egg fried rice
+-   kimchi fried rice
 
 ### Music
 
