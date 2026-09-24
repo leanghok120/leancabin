@@ -4,7 +4,7 @@ title: "Lean's Cabin"
 
 # Now
 
-Updated: September 20th, 2026
+Updated: September 24th, 2026
 
 These couple of days, I've been trying to get back into reading and writing as
 I feel they give every day a bit more purpose and meaning.
@@ -24,6 +24,7 @@ Here's a picture:
 - Suits
 - The mentalist
 - Dr. House
+- Silicon Valley
 
 ## Reading
 
