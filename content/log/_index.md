@@ -14,6 +14,11 @@ List of good movies/anime/series/books/articles I've watched or read
 - Jujutsu Kaisen
 - Secrets Of The Silent Witch
 
+## Series
+
+- Brooklyn 99
+- Suits
+
 ## Movies
 
 - The social network

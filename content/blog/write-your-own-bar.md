@@ -22,6 +22,7 @@ system.
 
 We’ll start by creating our bar window:
 
+```c
     #include <X11/Xlib.h>
     #include <X11/Xatom.h>
     #include <stdio.h>
@@ -56,7 +57,7 @@ We’ll start by creating our bar window:
 
       return 0;
     }
-            
+```
 
 The program above should create a window with a width of your screen and
 a height of 20 but upon running the program you should see that the bar
@@ -82,6 +83,7 @@ We can tell the windows manager that our window is a bar by setting a
 specific EWMH atom called `_NET_WM_WINDOW_TYPE` to
 `_NET_WM_WINDOW_TYPE_DOCK` like so:
 
+```c
       // create the bar window
       // ...
 
@@ -92,7 +94,7 @@ specific EWMH atom called `_NET_WM_WINDOW_TYPE` to
 
       // show the bar window
       // ...
-            
+```
 
 By doing this, your bar window becomes a dock and the windows manager
 will be able to position it like a dock (in most tiling windows manager,
@@ -111,7 +113,7 @@ the tutorial because of how drawing texts works in xlib.
 
 We’ll start by loading the font in:
 
-
+```c
       // set bar windows type to dock
       // ...
 
@@ -127,14 +129,17 @@ We’ll start by loading the font in:
       XFreeGC(dpy, gc);
       XDestroyWindow(dpy, bar);
       XCloseDisplay(dpy);
-            
+```
 
 now we will add "hello world" to our bar window by replacing:
 
+```c
     sleep(5)
+```
 
 with:
 
+```c
       // show the bar window
       // ...
 
@@ -146,13 +151,14 @@ with:
       }
 
       // ..
-            
+```
 
 running the program, we should see a white window with a black text of
 "hello world".
 
 let's replace "hello world" with the current date and time:
 
+```c
       // add text to the window
       char buf[64];
       while (1) {
@@ -165,7 +171,7 @@ let's replace "hello world" with the current date and time:
 
         sleep(1);
       }
-            
+```
 
 Now when we run the program, we should see our bar with the current date
 and time.
@@ -178,6 +184,7 @@ fix this by centering the date and time.
 In order to do this, we need to get the width of the date and time text
 and subtract it from our width and divide it by 2:
 
+```c
         // (in our loop)
         int text_width = XTextWidth(XQueryFont(dpy, font), buf, strlen(buf));
         int text_x = (width - text_width) / 2;
@@ -186,7 +193,7 @@ and subtract it from our width and divide it by 2:
         XClearWindow(dpy, bar); // avoid overlapping text
         XDrawString(dpy, bar, gc, text_x, text_y, buf, strlen(buf));
         XFlush(dpy);
-            
+```
 
 Running the program, we should see our beautiful bar:
 
