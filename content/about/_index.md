@@ -4,7 +4,7 @@ title: "About me"
 
 I'm Leanghok Oeng, you can call me Lean
 
-I'm a 14 year old hobbyist programmer from Cambodia and I'm currently
+I'm a 15 year old hobbyist programmer from Cambodia and I'm currently
 in my sophomore year of highschool (10th grade).
 
 <figure>

@@ -4,7 +4,9 @@ title: "Lean's Cabin"
 
 # Now
 
-Updated: September 24th, 2026
+Updated: October 2nd, 2026
+
+I just turned 15 today (October 2nd)!
 
 These couple of days, I've been trying to get back into reading and writing as
 I feel they give every day a bit more purpose and meaning.
