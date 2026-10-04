@@ -7,12 +7,13 @@ List of good movies/anime/series/books/articles I've watched or read
 
 ## Anime
 
-- Bleach (still waiting for cour 4)
-- Hunter x Hunter
-- Dr. Stone
+- Bleach
 - Frieren Beyond The Journey's End
-- Jujutsu Kaisen
+- Hunter x Hunter
+- Witch hat atelier
 - Secrets Of The Silent Witch
+- Dr. Stone
+- Jujutsu Kaisen
 
 ## Series
 
